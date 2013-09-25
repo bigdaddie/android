@@ -13,4 +13,4 @@ To initialize your local repository using the CyanogenMod trees, use a command l
 
 Then to sync up:
 
-    repo sync -j# (number of jobs)
+    repo sync -j# (# = number of jobs)
