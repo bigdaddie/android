@@ -69,6 +69,7 @@
   <project path="device/samsung/jfltexx" name="CyanogenMod/android_device_samsung_jfltexx" />
   <project path="device/samsung/jfltevzw" name="CyanogenMod/android_device_samsung_jfltevzw" />
   <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" />
+  <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
