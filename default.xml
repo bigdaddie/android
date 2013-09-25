@@ -54,6 +54,7 @@
   <project path="device/generic/mini-emulator-x86" name="device/generic/mini-emulator-x86" groups="pdk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="device/google/accessory/arduino" name="CyanogenMod/android_device_google_accessory_arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="CyanogenMod/android_device_google_accessory_demokit" groups="device" />
+  <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
   <project path="device/htc/dlx" name="CyanogenMod/android_device_htc_dlx" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" />
   <project path="device/motorola/msm8960-common" name="CyanogenMod/android_device_motorola_msm8960-common" />
@@ -70,6 +71,7 @@
   <project path="device/samsung/jfltevzw" name="CyanogenMod/android_device_samsung_jfltevzw" />
   <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" />
   <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" />
+  <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="external/aac" name="CyanogenMod/android_external_aac" groups="pdk" />
   <project path="external/android-clat" name="CyanogenMod/android_external_android-clat" />
@@ -316,6 +318,7 @@
   <project path="hardware/ti/omap4xxx" name="CyanogenMod/android_hardware_ti_omap4xxx" />
   <project path="hardware/ti/wlan" name="CyanogenMod/android_hardware_ti_wlan" />
   <project path="hardware/ti/wpan" name="CyanogenMod/android_hardware_ti_wpan" />
+  <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" />
   <project path="kernel/motorola/msm8960-common" name="CyanogenMod/android_kernel_motorola_msm8960-common" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" />
@@ -442,9 +445,12 @@
   <project path="tools/external/gradle" name="platform/tools/external/gradle" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/idea" name="platform/tools/idea" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
+  <project path="vendor/asus" name="proprietary_vendor_asus" remote="tm" revision="cm-10.2" />
   <project path="vendor/cm" name="android_vendor_cm" remote="ose" revision="cm-10.2" />
+  <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.2" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="dna" revision="cm-10.2" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
+  <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.2" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />
   <project path="vendor/qcom/opensource/v8" name="CyanogenMod/android_vendor_qcom_opensource_v8" />
   <project path="vendor/tmobile/apps/ThemeChooser" name="CyanogenMod/themes-platform-vendor-tmobile-apps-ThemeChooser" />
