@@ -328,8 +328,8 @@
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" />
   <project path="kernel/motorola/msm8960-common" name="CyanogenMod/android_kernel_motorola_msm8960-common" />
-  <project path="kernel/samsung/d2" name="KT747-JB" remote="kt" revision="mr1-3.4" />
-  <project path="kernel/samsung/jf" name="CyanogenMod/android_kernel_samsung_jf" />
+  <project path="kernel/samsung/d2" name="KT747-JB" remote="kt" revision="mr2" />
+  <project path="kernel/samsung/jf" name="KT-SGS4" remote="kt" revision="aosp4.3" />
   <project path="libcore" name="CyanogenMod/android_libcore" />
   <project path="libnativehelper" name="CyanogenMod/android_libnativehelper" groups="pdk-java" />
   <project path="ndk" name="platform/ndk" remote="aosp" revision="refs/tags/android-4.3_r3.1" />
