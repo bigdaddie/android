@@ -26,7 +26,10 @@
           fetch="git://github.com/cristianomatos/" />
           
   <remote name="kt"
-          fetch="git://github.com/ktoonsez/" />          
+          fetch="git://github.com/ktoonsez/" />
+          
+  <remote name="argh"
+          fetch="git://github.com/arrrghhh/" />         
 
   <default revision="refs/heads/cm-10.2"
            remote="github"
@@ -77,16 +80,16 @@
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" />
   <project path="device/motorola/msm8960-common" name="CyanogenMod/android_device_motorola_msm8960-common" />
   <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" />
-  <project path="device/motorola/mb886" name="CyanogenMod/android_device_motorola_mb886" />
+  <project path="device/motorola/mb886" name="android_device_motorola_mb886" remote="ose" revision="cm-10.2" />
   <project path="device/motorola/xt897" name="CyanogenMod/android_device_motorola_xt897" />
   <project path="device/motorola/xt897c" name="CyanogenMod/android_device_motorola_xt897c" />
-  <project path="device/motorola/xt907" name="CyanogenMod/android_device_motorola_xt907" />
-  <project path="device/motorola/xt925" name="CyanogenMod/android_device_motorola_xt925" />
-  <project path="device/motorola/xt926" name="CyanogenMod/android_device_motorola_xt926" />
-  <project path="device/samsung/d2vzw" name="CyanogenMod/android_device_samsung_d2vzw" />
+  <project path="device/motorola/xt907" name="android_device_motorola_xt907" remote="ose" revision="cm-10.2" />
+  <project path="device/motorola/xt925" name="android_device_motorola_xt925" remote="ose" revision="cm-10.2" />
+  <project path="device/motorola/xt926" name="android_device_motorola_xt926" remote="ose" revision="cm-10.2" />
+  <project path="device/samsung/d2vzw" name="android_device_samsung_d2vzw" remote="ose" revision="cm-10.2" />
   <project path="device/samsung/d2-common" name="CyanogenMod/android_device_samsung_d2-common" />
   <project path="device/samsung/jfltexx" name="CyanogenMod/android_device_samsung_jfltexx" />
-  <project path="device/samsung/jfltevzw" name="CyanogenMod/android_device_samsung_jfltevzw" />
+  <project path="device/samsung/jfltevzw" name="android_device_samsung_jfltevzw" remote="ose" revision="cm-10.2" />
   <project path="device/samsung/jf-common" name="CyanogenMod/android_device_samsung_jf-common" />
   <project path="device/samsung/msm8960-common" name="CyanogenMod/android_device_samsung_msm8960-common" />
   <project path="device/samsung/qcom-common" name="CyanogenMod/android_device_samsung_qcom-common" />
@@ -350,7 +353,7 @@
   <!-- Kernels -->
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" />
-  <project path="kernel/motorola/msm8960-common" name="CyanogenMod/android_kernel_motorola_msm8960-common" />
+  <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="argh" revision="cm-10.1_mod" />
   <project path="kernel/samsung/d2" name="KT747-JB" remote="kt" revision="mr2" />
   <project path="kernel/samsung/jf" name="KT-SGS4" remote="kt" revision="aosp4.3" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" />
