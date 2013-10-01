@@ -355,7 +355,7 @@
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="argh" revision="cm-10.1_mod" />
   <project path="kernel/samsung/d2" name="KT747-JB" remote="kt" revision="mr2" />
-  <project path="kernel/samsung/jf" name="KT-SGS4" remote="kt" revision="aosp" />
+  <project path="kernel/samsung/jf" name="KT-SGS4" remote="kt" revision="aosp4.3" />
   <project path="kernel/samsung/smdk4412" name="CyanogenMod/android_kernel_samsung_smdk4412" />
   
   <!-- Apps -->
