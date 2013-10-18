@@ -12,6 +12,10 @@
 
   <remote  name="private"
            fetch="ssh://git@github.com" />
+		   
+  <remote  name="omni"
+           fetch="https://github.com/omnirom"
+           review="gerrit.omnirom.org" />		   
            
   <remote name="ose"
           fetch="git://github.com/OSE-ROM/" />
@@ -434,7 +438,7 @@
   <!-- Wallpapers -->
   <project path="packages/wallpapers/Basic" name="CyanogenMod/android_packages_wallpapers_Basic" />
   <project path="packages/wallpapers/LivePicker" name="CyanogenMod/android_packages_wallpapers_LivePicker" />
-  <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" />
+  <project path="packages/wallpapers/PhaseBeam" name="android_packages_wallpapers_PhaseBeam" remote="omni" revision="android-4.3" />
   
   <!-- Prebuilts -->
   <project path="prebuilt" name="CyanogenMod/android_prebuilt" />
