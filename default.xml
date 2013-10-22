@@ -507,6 +507,7 @@
   <project path="vendor/cm" name="android_vendor_cm" remote="ose" revision="cm-10.2" />
   <project path="vendor/elan" name="proprietary_vendor_elan" remote="tm" revision="cm-10.2" />
   <project path="vendor/htc" name="proprietary_vendor_htc" remote="dna" revision="cm-10.2" />
+  <project path="vendor/lge" name="proprietary_vendor_lge" remote="tm" revision="cm-10.2" />
   <project path="vendor/motorola" name="proprietary_vendor_motorola" remote="tm" revision="cm-10.2" />
   <project path="vendor/nvidia" name="proprietary_vendor_nvidia" remote="tm" revision="cm-10.2" />
   <project path="vendor/samsung" name="proprietary_vendor_samsung" remote="tm" revision="cm-10.2" />
