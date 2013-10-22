@@ -83,6 +83,8 @@
   <project path="device/asus/grouper" name="CyanogenMod/android_device_asus_grouper" />
   <project path="device/htc/dlx" name="CyanogenMod/android_device_htc_dlx" />
   <project path="device/htc/msm8960-common" name="CyanogenMod/android_device_htc_msm8960-common" />
+  <project path="device/lge/vs980" name="CyanogenMod/android_device_lge_vs980" />
+  <project path="device/lge/g2-common" name="CyanogenMod/android_device_lge_g2-common" />
   <project path="device/motorola/msm8960-common" name="CyanogenMod/android_device_motorola_msm8960-common" />
   <project path="device/motorola/msm8960dt-common" name="android_device_motorola_msm8960dt-common" remote="rq" revision="cm-10.2" />
   <project path="device/motorola/qcom-common" name="CyanogenMod/android_device_motorola_qcom-common" />
@@ -345,10 +347,12 @@
   <project path="hardware/qcom/bt" name="CyanogenMod/android_hardware_qcom_bt" groups="qcom" />
   <project path="hardware/qcom/display" name="CyanogenMod/android_hardware_qcom_display" groups="qcom" />
   <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" groups="caf" />
+  <project path="hardware/qcom/display-mdss" name="CyanogenMod/android_hardware_qcom_display-mdss" />
   <project path="hardware/qcom/gps" name="CyanogenMod/android_hardware_qcom_gps" groups="qcom" />
   <project path="hardware/qcom/keymaster" name="CyanogenMod/android_hardware_qcom_keymaster" groups="qcom" />
   <project path="hardware/qcom/media" name="CyanogenMod/android_hardware_qcom_media" groups="qcom" />
   <project path="hardware/qcom/media-caf" name="CyanogenMod/android_hardware_qcom_media-caf" groups="caf" />
+  <project path="hardware/qcom/media-v412" name="CyanogenMod/android_hardware_qcom_media-v412" />
   <project path="hardware/qcom/msm8960" name="CyanogenMod/android_hardware_qcom_msm8960" groups="qcom_msm8960" />
   <project path="hardware/qcom/power" name="CyanogenMod/android_hardware_qcom_power" />
   <project path="hardware/qcom/sensors" name="CyanogenMod/android_hardware_qcom_sensors" />
@@ -364,6 +368,7 @@
   <!-- Kernels -->
   <project path="kernel/asus/grouper" name="CyanogenMod/android_kernel_asus_grouper" />
   <project path="kernel/htc/m7" name="CyanogenMod/android_kernel_htc_m7" />
+  <project path="kernel/lge/msm8974" name="CyanogenMod/android_kernel_lge_msm8974" />
   <project path="kernel/motorola/msm8960-common" name="android_kernel_motorola_msm8960-common" remote="argh" revision="cm-10.1_mod" />
   <project path="kernel/motorola/msm8960dt-common" name="android_kernel_motorola_msm8960dt-common" remote="rq" revision="cm-10.2" />
   <project path="kernel/samsung/d2" name="CyanogenMod/android_kernel_samsung_d2" />
