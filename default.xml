@@ -32,7 +32,7 @@
   <remote name="rq"
           fetch="git://github.com/razrqcom-dev-team/" />          
 
-  <default revision="refs/heads/cm-10.2"
+  <default revision="refs/tags/cm-10.2-M1"
            remote="github"
            sync-c="true"
            sync-j="4" />
